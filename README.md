@@ -44,4 +44,6 @@ $$S_{UU}(\vec{k},\omega,\theta) = \langle U_{-\vec{k}}(\omega-H(\theta) + E_0 -i
 where $\eta$ is a small positive number which we use to smooth the spectra.
 Here 
 
-$$X_{\vec{k}}=\sum_j X_j e^{i{\vec k}\cdot \vec{r}_j}, U_{\vec{k}}=\sum_p U_p e^{i{\vec k}\cdot \vec{R}_p}.$$
+$$X_{\vec{k}}=\sum_j X_j e^{i{\vec k}\cdot \vec{r}_j}$$
+
+$$U_{\vec{k}}=\sum_p U_p e^{i{\vec k}\cdot \vec{R}_p}.$$
