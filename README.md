@@ -33,7 +33,7 @@ methods:
     % [Xkk_abs2,kk]    = o1.S_XX_kkp(eii,eiVec): S_XX(omega,k)
     % [Z4ij]           = o1.S_Z4Z4_ij(obj,eii,eiVec,i1,omega):S_UU(omega,i,j)
     % [Z4kk_abs,kk]    = o1.S_Z4Z4_kkp(eii,eiVec,i1,omega): S_UU(omega,k)
-    % [S_A]            = o1.entEntropy(obj,theta,psi0) : calculate entanglement entropy for 
+    % [S_A]            = o1.entEntropy(obj,theta,psi0) : calculate entanglement entropy for the system cut in half.
 
 Clearly, we calculate the dynamical structure factors,
 
