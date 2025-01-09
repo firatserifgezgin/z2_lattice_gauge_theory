@@ -46,6 +46,4 @@ Here,
 
 $$X_{\vec{k}}=\sum_j X_j e^{i{\vec k}\cdot \vec{r}_j}$$ 
 
-and 
-
-$$U_{\vec{k}}=\sum_p U_p e^{i{\vec k}\cdot \vec{R}_p}$$.
+$$U_{\vec{k}}=\sum_p U_p e^{i{\vec k}\cdot \vec{R}_p}$$
