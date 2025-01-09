@@ -11,7 +11,6 @@ properties:
     % o1.X_k        : representation of X_k for each k-sector
     % o1.Z4         : representation of ZZZZ for each plaquette
     % o1.ksec       : clustering of idS into k-sectors and projectors
-
     % methods:
     % makespace_z2_lgt(n,m,mxSt): constructor, n x m plaq lattice,
     %                                       mxSt: maxString length 
