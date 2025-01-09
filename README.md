@@ -6,6 +6,7 @@ It is a MATLAB implementation of a Z2 lattice gauge theory.
 The main file is the class desccription of a 'Z2 object'. The properties of this object could be accesses as:
 
 properties:
+
     % o1.idS        : generates gauge-invariant basis (all loops of size X)
     % o1.xmat,zmat  : representation X and Z in idS
     % o1.X_k        : representation of X_k for each k-sector
