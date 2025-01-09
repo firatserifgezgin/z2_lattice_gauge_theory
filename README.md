@@ -35,9 +35,9 @@ methods:
     % [S_A]            = o1.entEntropy(obj,theta,psi0) : calculate entanglement entropy for 
 
 Clearly, we calculate the dynamical structure factors,
-$$ S_{XX}(\vec{k},\omega,\theta) = \langle X_{-\vec{k}}(\omega-H(\theta) + E_0 -i \eta)^{-1} X_{\vec{k}} \rangle_0 $$
-S_{UU}(\vec{k},\omega,\theta) = \langle U_{-\vec{k}}(\omega-H(\theta) + E_0 -i \eta)^{-1} U_{\vec{k}} \rangle_0$$
+$$S_{XX}(\vec{k},\omega,\theta) = \langle X_{-\vec{k}}(\omega-H(\theta) + E_0 -i \eta)^{-1} X_{\vec{k}} \rangle_0$$
+$$S_{UU}(\vec{k},\omega,\theta) = \langle U_{-\vec{k}}(\omega-H(\theta) + E_0 -i \eta)^{-1} U_{\vec{k}} \rangle_0$$
 where $\eta$ is a small positive number which we use to smooth the spectra.
 Here 
 $$X_{\vec{k}}=\sum_j X_j e^{i{\vec k}\cdot \vec{r}_j},\quad
-U_{\vec{k}}=\sum_p U_p e^{i{\vec k}\cdot \vec{R}_p}. $$
+U_{\vec{k}}=\sum_p U_p e^{i{\vec k}\cdot \vec{R}_p}.$$
