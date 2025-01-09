@@ -16,6 +16,7 @@ properties:
 Once the representation of all operators are calculated, one can define a Hamiltonian and investigate the further properties of the system.
 
 In the corresponding work, the Hamiltonian is,
+
 $$H = -\cos\theta \sum_p U_p-\sin \theta \sum_i X_i.$$
 
 Note that, $U_p=Z_i Z_j Z_k Z_l$ and the adiabatic parameter $\theta\in[0,\pi/2]$.
@@ -35,9 +36,13 @@ methods:
     % [S_A]            = o1.entEntropy(obj,theta,psi0) : calculate entanglement entropy for 
 
 Clearly, we calculate the dynamical structure factors,
+
 $$S_{XX}(\vec{k},\omega,\theta) = \langle X_{-\vec{k}}(\omega-H(\theta) + E_0 -i \eta)^{-1} X_{\vec{k}} \rangle_0$$
+
 $$S_{UU}(\vec{k},\omega,\theta) = \langle U_{-\vec{k}}(\omega-H(\theta) + E_0 -i \eta)^{-1} U_{\vec{k}} \rangle_0$$
+
 where $\eta$ is a small positive number which we use to smooth the spectra.
 Here 
+
 $$X_{\vec{k}}=\sum_j X_j e^{i{\vec k}\cdot \vec{r}_j},\quad
 U_{\vec{k}}=\sum_p U_p e^{i{\vec k}\cdot \vec{R}_p}.$$
