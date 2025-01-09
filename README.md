@@ -5,8 +5,6 @@ It is a MATLAB implementation of a Z2 lattice gauge theory.
 
 The main file is the class desccription of a 'Z2 object'. The properties of this object could be accesses as:
 
-properties:
-
     % o1.idS        : generates gauge-invariant basis (all loops of size X)
     % o1.xmat,zmat  : representation X and Z in idS
     % o1.X_k        : representation of X_k for each k-sector
@@ -21,8 +19,7 @@ $$H = -\cos\theta \sum_p U_p-\sin \theta \sum_i X_i.$$
 
 Note that, $U_p=Z_i Z_j Z_k Z_l$ and the adiabatic parameter $\theta\in[0,\pi/2]$.
 
-In the method part, we also provided dynamical correlation functions, entanglement entropy etc.
-methods:
+In the method part, we also provided dynamical correlation functions, entanglement entropy, lattice visualization etc. along with the spectral decomposition methods.
 
     % makespace_z2_lgt(n,m,mxSt): constructor, n x m plaq lattice, mxSt: maxString length 
     % o1.visStateM(idS{1},visualsOn,ifLabelPlaquettes) : visualize idS
